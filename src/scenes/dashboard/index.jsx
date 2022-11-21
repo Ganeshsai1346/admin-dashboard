@@ -1,7 +1,15 @@
 /** @format */
 
+import { Container, Row } from "react-bootstrap";
+
 const Dashboard = () => {
-  return <div>Dashboard</div>;
+  return (
+    <div>
+      <Container>
+        <Row></Row>
+      </Container>
+    </div>
+  );
 };
 
 export default Dashboard;
