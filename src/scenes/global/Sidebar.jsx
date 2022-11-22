@@ -10,7 +10,9 @@ const Sidebar = () => {
   return (
     <div>
       <Container>
-        <Row></Row>
+        <Row>
+          <Box></Box>
+        </Row>
       </Container>
     </div>
   );
